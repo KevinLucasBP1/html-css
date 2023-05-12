@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados locamente.</h1>
+    <p>Este video esta hospedado em meu proprio servidor</p>
+
+    <video width="500" poster="imagens/punpun mundo.png" controls autoplay loop>    
+        <source src="midias/meu-video.mp4.mp4" type="video/mp4">
+        <source src="midias/meu-video.m4v.m4v" type="video/mp4">
+        <source src="midias/meu-video.webm.webm" type="video/webm">
+        <source src="midias/meu-video.ogv.ogv" type="video/ogv">
+        
+        <p>Seu navegador não te compatibilidade com reprodução de video.</p> <!--Sempre tente colocar video leves para nao levantar custos altos para o cliente-->
+    </video>
+    <h1>Inserindo Videos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oumImTUgNb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo videos do vimeo</h1>
+
+    <iframe src="https://player.vimeo.com/video/257399106?h=b4f1975b25&color=ff9933&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
